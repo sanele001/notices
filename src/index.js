@@ -15,7 +15,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
-//......................get DOM ELEMENTS
+//......................get DOM LEMENTS
 
 const titleinput = document.getElementById("title");
 
