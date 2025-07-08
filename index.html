@@ -1,29 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Dr Ngubane</title>
-  </head>
-  <body>
-    <div class="main">
-      <div class="send">
-        <h2>send to <span id="numberofusers">100</span> users</h2>
-        <form action="" id="myForm">
-          <input type="text" id="title" placeholder="type title here" />
-          <textarea
-            id="tbody"
-            name="textbody"
-            rows="4"
-            cols="50"
-            placeholder="type here"
-          ></textarea>
-          <input type="submit" value="Send" id="send" />
-        </form>
-      </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jungle Jim and the Golden Mammoth - Game Rules</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <!-- Header Section -->
+        <div class="header-section">
+            <h1 class="win-title">WIN UP TO<br><span class="multiplier">3333x</span></h1>
+            <div class="epic-strike-section">
+                <div class="symbol-container">
+                    <div class="epic-symbol">⚡</div>
+                </div>
+                <div class="epic-text">
+                    <h3>EPIC STRIKE - SCATTER</h3>
+                    <p>COLLECT 3 EPIC STRIKE SYMBOLS TO ACTIVATE THE EPIC STRIKE FEATURE</p>
+                    <p>3 EPIC SYMBOLS ON REEL 1 - WIN POSITION MULTIPLIES WIN BY UP TO X500</p>
+                    <p>IN THE EPIC STRIKE EVERY SYMBOL ON THE REELS CAN BE A WILD</p>
+                </div>
+            </div>
+            <div class="paytable">
+                <div class="pay-line">3 EPIC STRIKE - WIN UP TO 3333X BET</div>
+                <div class="pay-line">4 EPIC STRIKE - WIN UP TO 333X BET</div>
+                <div class="pay-line">5 EPIC STRIKE - WIN UP TO 33X BET</div>
+                <div class="pay-line">6 EPIC STRIKE - WIN UP TO 16X BET</div>
+                <div class="pay-line">8 EPIC STRIKE - WIN UP TO 6X BET</div>
+                <div class="pay-line">9 EPIC STRIKE - WIN UP TO 3X BET</div>
+                <div class="pay-line">10 EPIC STRIKE - WIN UP TO 2X BET</div>
+            </div>
+        </div>
+
+        <!-- Wild Section -->
+        <div class="wild-section">
+            <h2>WILD</h2>
+            <div class="wild-content">
+                <div class="wild-symbol">🃏</div>
+                <div class="wild-description">
+                    <p>WILD SYMBOL SUBSTITUTES FOR ALL SYMBOLS EXCEPT SCATTER, FREE SPINS AND TOWER BONUS</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tower Bonus Section -->
+        <div class="tower-bonus-section">
+            <h2>TOWER BONUS</h2>
+            <div class="tower-content">
+                <div class="tower-symbol">
+                    <div class="tower-graphic">🏛️</div>
+                    <div class="bonus-display">
+                        <div class="bonus-amount">333,000</div>
+                        <div class="bonus-coins">COINS</div>
+                        <div class="bonus-bet">BET 100</div>
+                    </div>
+                </div>
+                <div class="tower-description">
+                    <p>COLLECT 3 TOWER BONUS SYMBOLS ON AN ACTIVE PAYLINE TO ENTER THE TOWER BONUS</p>
+                    <p>CHOOSE FROM THE TOWER OF MYSTERY CHESTS TO REVEAL COIN PRIZES. KEEP CHOOSING UNTIL YOU REVEAL THE COLLECT SYMBOL</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Free Spins Section -->
+        <div class="free-spins-section">
+            <h2>FREE SPINS</h2>
+            <div class="free-spins-content">
+                <div class="free-spin-symbols">
+                    <div class="free-spin-symbol">🆓</div>
+                    <div class="free-spin-symbol">🆓</div>
+                </div>
+                <div class="free-spins-description">
+                    <div class="free-spin-text">
+                        <h4>FREE SPINS SYMBOL</h4>
+                        <p>COLLECT 3, 4 OR 5 FREE SPINS SYMBOLS ANYWHERE ON THE REELS TO TRIGGER FREE SPINS</p>
+                    </div>
+                    <div class="collect-text">
+                        <h4>COLLECT SYMBOL</h4>
+                        <p>COLLECT SYMBOLS CAN ONLY APPEAR DURING FREE SPINS. WHEN 3 OR MORE COLLECT SYMBOLS APPEAR, THEY AWARD ADDITIONAL FREE SPINS</p>
+                    </div>
+                </div>
+            </div>
+            <div class="multiplier-section">
+                <div class="multiplier-symbol">1x</div>
+                <div class="multiplier-description">
+                    <h4>1X SYMBOL</h4>
+                    <p>1X SYMBOLS CAN ONLY APPEAR DURING FREE SPINS. THEY MULTIPLY THE WIN BY THE VALUE SHOWN</p>
+                    <p>FREE SPINS MULTIPLIER</p>
+                    <p>MULTIPLIERS ARE APPLIED TO WINS AT THE END OF EACH SPIN</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Symbol Paytable -->
+        <div class="symbol-paytable">
+            <div class="symbol-row">
+                <div class="symbol">👑</div>
+                <div class="pays">5 = 1000 | 4 = 250 | 3 = 100</div>
+            </div>
+            <div class="symbol-row">
+                <div class="symbol">💎</div>
+                <div class="pays">5 = 750 | 4 = 200 | 3 = 75</div>
+            </div>
+            <div class="symbol-row">
+                <div class="symbol">🏺</div>
+                <div class="pays">5 = 500 | 4 = 150 | 3 = 50</div>
+            </div>
+            <div class="symbol-row">
+                <div class="symbol">🗿</div>
+                <div class="pays">5 = 400 | 4 = 100 | 3 = 40</div>
+            </div>
+            <div class="symbol-row">
+                <div class="symbol">🔮</div>
+                <div class="pays">5 = 300 | 4 = 75 | 3 = 30</div>
+            </div>
+            <div class="symbol-row">
+                <div class="symbol">💰</div>
+                <div class="pays">5 = 200 | 4 = 50 | 3 = 20</div>
+            </div>
+            <div class="symbol-row">
+                <div class="symbol">🌟</div>
+                <div class="pays">5 = 150 | 4 = 40 | 3 = 15</div>
+            </div>
+            <div class="symbol-row">
+                <div class="symbol">💍</div>
+                <div class="pays">5 = 100 | 4 = 30 | 3 = 10</div>
+            </div>
+        </div>
+
+        <!-- Paylines Section -->
+        <div class="paylines-section">
+            <h3>20 PAYLINES IN BASE GAME</h3>
+            <div class="paylines-grid base-game">
+                <div class="payline-row">
+                    <div class="payline-diagram">1 ─────</div>
+                    <div class="payline-diagram">2 ╱╲╱╲╱</div>
+                    <div class="payline-diagram">3 ╲╱╲╱╲</div>
+                    <div class="payline-diagram">4 ──╲╱─</div>
+                    <div class="payline-diagram">5 ──╱╲─</div>
+                </div>
+                <div class="payline-row">
+                    <div class="payline-diagram">6 ╱────</div>
+                    <div class="payline-diagram">7 ╲────</div>
+                    <div class="payline-diagram">8 ────╱</div>
+                    <div class="payline-diagram">9 ────╲</div>
+                    <div class="payline-diagram">10 ─╱╲─</div>
+                </div>
+                <div class="payline-row">
+                    <div class="payline-diagram">11 ─╲╱─</div>
+                    <div class="payline-diagram">12 ╱─╲─</div>
+                    <div class="payline-diagram">13 ╲─╱─</div>
+                    <div class="payline-diagram">14 ─╱─╲</div>
+                    <div class="payline-diagram">15 ─╲─╱</div>
+                </div>
+                <div class="payline-row">
+                    <div class="payline-diagram">16 ╱╲──</div>
+                    <div class="payline-diagram">17 ╲╱──</div>
+                    <div class="payline-diagram">18 ──╱╲</div>
+                    <div class="payline-diagram">19 ──╲╱</div>
+                    <div class="payline-diagram">20 ╱──╲</div>
+                </div>
+            </div>
+
+            <h3>UP TO 40 PAYLINES IN FREE SPINS</h3>
+            <div class="paylines-grid free-spins">
+                <div class="payline-row">
+                    <div class="payline-diagram">21 ╲──╱</div>
+                    <div class="payline-diagram">22 ╱╲╱─</div>
+                    <div class="payline-diagram">23 ╲╱╲─</div>
+                    <div class="payline-diagram">24 ─╱╲╲</div>
+                    <div class="payline-diagram">25 ─╲╱╱</div>
+                </div>
+                <div class="payline-row">
+                    <div class="payline-diagram">26 ╱─╱╲</div>
+                    <div class="payline-diagram">27 ╲─╲╱</div>
+                    <div class="payline-diagram">28 ╱╱─╲</div>
+                    <div class="payline-diagram">29 ╲╲─╱</div>
+                    <div class="payline-diagram">30 ─╱─╱</div>
+                </div>
+                <div class="payline-row">
+                    <div class="payline-diagram">31 ─╲─╲</div>
+                    <div class="payline-diagram">32 ╱─╱─</div>
+                    <div class="payline-diagram">33 ╲─╲─</div>
+                    <div class="payline-diagram">34 ╱╲╲╱</div>
+                    <div class="payline-diagram">35 ╲╱╱╲</div>
+                </div>
+                <div class="payline-row">
+                    <div class="payline-diagram">36 ╱╱╲╲</div>
+                    <div class="payline-diagram">37 ╲╲╱╱</div>
+                    <div class="payline-diagram">38 ╱╲─╱</div>
+                    <div class="payline-diagram">39 ╲╱─╲</div>
+                    <div class="payline-diagram">40 ╱─╲╱</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>JUNGLE JIM AND THE GOLDEN MAMMOTH™</p>
+        </div>
     </div>
-    <script src="./dist/bundle.js"></script>
-  </body>
+</body>
 </html>
